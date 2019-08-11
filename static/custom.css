@@ -13,6 +13,7 @@ body.rise-enabled .highlight * {
 }
 body.rise-enabled .huge,
 body.rise-enabled .huge * {
+    font-weight: bold;
     font-size: 8em;
 }
 body.rise-enabled h1 {
@@ -20,6 +21,12 @@ body.rise-enabled h1 {
 }
 body.rise-enabled h2 {
     color: #ed9042;
+}
+body.rise-enabled a {
+    color: #459cb7 !important;
+}
+body.rise-enabled thead {
+    background-color: #677c83 !important;
 }
 body.rise-enabled {
     background-color: #454547;
@@ -30,6 +37,16 @@ body.rise-enabled * {
 }
 body.rise-enabled section {
     padding: 20px 50px !important;
+}
+body.rise-enabled div.inner_cell img {
+    max-height: 600px;
+}
+body.rise-enabled div.inner_cell p,
+body.rise-enabled div.inner_cell p *,
+body.rise-enabled div.inner_cell table *,
+body.rise-enabled div.inner_cell ul * {
+    background-color: transparent;
+    font-size: 24px;
 }
 body.rise-enabled #exit_b,
 body.rise-enabled #help_b,

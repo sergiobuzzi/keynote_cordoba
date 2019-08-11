@@ -1,0 +1,11 @@
+name: pandas_growth
+channels:
+  - defaults
+  - conda-forge
+  - intake
+dependencies:
+  - jupyter
+  - intake
+  - intake-parquet
+  - anaconda-package-data
+  - s3fs>=0.3
