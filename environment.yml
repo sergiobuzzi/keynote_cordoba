@@ -1,0 +1,7 @@
+name: keynote_cordoba
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyter
+  - rise

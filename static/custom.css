@@ -1,0 +1,57 @@
+body.rise-enabled .pydata-orange {
+    color: #ed9042;
+}
+body.rise-enabled .pydata-blue {
+    color: #459cb7;
+}
+body.rise-enabled .pydata-gray {
+    color: #677c83;
+}
+body.rise-enabled .highlight,
+body.rise-enabled .highlight * {
+    color: #459cb7;
+}
+body.rise-enabled .huge,
+body.rise-enabled .huge * {
+    font-size: 8em;
+}
+body.rise-enabled h1 {
+    font-size: 2em;
+}
+body.rise-enabled h2 {
+    color: #ed9042;
+}
+body.rise-enabled {
+    background-color: #454547;
+}
+body.rise-enabled * {
+    color: white;
+    font-family: 'Domine', serif !important;
+}
+body.rise-enabled section {
+    padding: 20px 50px !important;
+}
+body.rise-enabled #exit_b,
+body.rise-enabled #help_b,
+body.rise-enabled #notebook div.progress,
+body.rise-enabled #notebook aside.controls,
+body.rise-enabled #notebook div.slide-number {
+    display: none !important;
+}
+body.rise-enabled #notebook-container::before {
+    content: "";
+    display: inline-block;
+    margin-top: .2em;
+    width: 71px;
+    height: 150px;
+    background-image: url(../static/img/pydata.png);
+    background-repeat: no-repeat;
+}
+body.rise-enabled #notebook-container::after {
+    content: "@datapythonista";
+    position: fixed;
+    bottom: 1em;
+    right: 0;
+    font-size: .8em;
+    color: #459cb7;
+}
