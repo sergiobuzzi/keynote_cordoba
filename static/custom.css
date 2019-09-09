@@ -40,6 +40,7 @@ body.rise-enabled section {
 }
 body.rise-enabled div.inner_cell img {
     max-height: 600px;
+    background: none;
 }
 body.rise-enabled div.inner_cell p,
 body.rise-enabled div.inner_cell p *,
