@@ -5,3 +5,5 @@ channels:
 dependencies:
   - jupyter
   - rise
+  - pandas
+  - matplotlib
