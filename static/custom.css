@@ -77,4 +77,5 @@ body.rise-enabled #notebook-container::after {
 .rendered_html ul:not(.list-inline),
 .rendered_html ol:not(.list-inline) {
     padding-left: 0;
+    margin-top: 0;
 }
